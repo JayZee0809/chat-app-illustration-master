@@ -1,0 +1,290 @@
+body {
+    font-family: "rubik";
+    background-color: hsl(270, 20%, 96%);
+    font-size: 16px;
+}
+
+.app-bg {
+    background-color: hsl(270, 20%, 96%);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding-bottom: 10px;
+}
+.layout {
+    position: relative;
+    left: 237px;
+    bottom: 410px;
+    height: fit-content;
+    width: 200px;
+    border-style: solid;
+    border-radius: 20px;
+    min-height: fit-content;
+    border-width: 5px;
+    border-color: white;
+    background-color: white;
+    border-bottom-width: 5px;
+}
+
+.leftTint {
+    background: linear-gradient(to top,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    width: 430px;
+    height: 500px;
+    border-bottom-left-radius: 620px;
+    border-bottom-right-radius: 620px;
+    position: relative;
+    left: -144px;
+    margin-top: -8px;
+}
+
+.top {
+    background: hsl(293, 100%, 63%);
+    background: linear-gradient(to left,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    height: 45px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    top: -1.5px;
+    left: -0.5px;
+    position: relative;
+    border-color: white;
+}
+
+.toTop {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    left: 2%;
+    right: auto;
+    background-color: white;
+    height: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -12px;
+    padding-top: 5px;
+}
+
+.avatar {
+    width: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+.sub-heading {
+    color: hsl(276, 100%, 81%);
+    margin-top: -5px;
+    font-size: 9px;
+    position: relative;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 0;
+    font-size: 11px;
+}
+
+.name {
+    position: relative;
+    margin-left: 40px;
+    bottom: 10px;
+    padding: 2px;
+}
+
+hr {
+    border-style: none;
+    border-right-style: dotted;
+    height: 7px;
+    width: 0;
+    border-width: 1.6px;
+    border-color: white;
+    margin: 0;
+    margin-left: 100%;
+}
+
+.leftHalf {
+    display: inline-block;
+    height: 600px;
+}
+
+.paradiv {
+    color: hsl(271, 36%, 24%);
+    display: inline-block;
+    width: 35%;
+    position: relative;
+    left: 200px;
+    bottom: 570px;
+    font-weight: 700;
+    min-height: fit-content;
+}
+h1 {
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.para {
+    color: hsl(270, 7%, 64%);
+}
+
+.textBoxLeft {
+    position: relative;
+    background-color: hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    width: 60%;
+    min-height: fit-content;
+    font-size: 8.5px;
+    padding: 0.1%;
+    padding-left: 5px;
+    padding-right: 2.5%;
+    margin: 5px;
+    margin-left: 4px;
+    left: 2px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 1px;
+    font-weight: 700;
+    word-spacing: 1px;
+}
+
+.textBox {
+    position: relative;
+    margin: 3px;
+    float: right;
+    right: 4px;
+    background-color: white;
+    color: hsl(271, 15%, 43%);
+    width: fit-content;
+    max-width: 60%;
+    min-height: fit-content;
+    font-size: 8.5px;
+    padding: 0.1%;
+    padding-right: 5px;
+    padding-left: 2.5%;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 1px;
+    font-weight: 700;
+    word-spacing: 1px;
+}
+
+.textBoxLeft2 {
+    position: relative;
+    left: 2px;
+    background-color: hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    width: 60%;
+    min-height: fit-content;
+    font-size: 8.5px;
+    padding: 0.1%;
+    padding-left: 5px;
+    padding-right: 2.5%;
+    margin-top: 125px;
+    margin-left: 4px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 1px;
+    font-weight: 700;
+    word-spacing: 1px;
+}
+
+.dogs {
+    width: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+.checkbox {
+    position: relative;
+    left: 2px;
+    background: linear-gradient(to left, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    color: hsl(270, 20%, 96%);
+    width: 60%;
+    min-height: fit-content;
+    font-size: 8.5px;
+    padding: 0.1%;
+    padding-left: 5px;
+    padding-right: 2.5%;
+    margin: 5px;
+    margin-left: 4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 1px;
+    font-weight: 700;
+    word-spacing: 1px;
+}
+
+.bullet {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1px;
+    position: relative;
+    top: 8px;
+    float: left;
+}
+
+.check {
+    position: relative;
+    left: 8px;
+    display: inline-block;
+}
+
+.check2 {
+    position: relative;
+    float: right;
+    right: 5px;
+}
+
+.text-submit {
+    position: relative;
+    left: 5px;
+    width: 92%;
+    background-color: white;
+    border-radius: 30px;
+    height: 40px;
+
+}
+
+.text_Button {
+    display: inline-block;
+    
+    padding: 0;
+    padding-left: 15px;
+    color: hsl(206, 6%, 79%);
+    font-weight: 600;
+}
+
+#txtBtn {
+    color: white;
+    position: relative;
+    left: 55px;
+    top: 4.5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: hsl(271, 36%, 24%);
+    padding: 0;
+}
+
+#txtmsg {
+    position: relative;
+    bottom: 25px;
+    left: 2px;
+    font-size: 10px;
+}
